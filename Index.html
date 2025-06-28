@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yupiter's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Yupiter</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button id="theme-toggle" class="toggle-theme">🌙 Toggle Dark</button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h2>Hello, I'm Yupiter</h2>
+    <p>I am a passionate Web Developer who loves building amazing things on the web. Welcome to my portfolio!</p>
+  </section>
+
+  <section id="about" class="about">
+    <h3>About Me</h3>
+    <p>
+      I'm a Web Developer with experience in HTML, CSS, JavaScript. I enjoy turning complex problems into simple, beautiful, and intuitive designs.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h3>Projects</h3>
+    <div class="projects">
+      <a class="project-card" href="detail.html">
+        <img src="https://via.placeholder.com/400x200?text=Project+1+Image" alt="Project 1 Image" />
+        <h4>Project 1</h4>
+        <p>Click to see more about this project.</p>
+      </a>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/400x200?text=Project+2+Image" alt="Project 2 Image" />
+        <h4>Project 2</h4>
+        <p>Another awesome project here.</p>
+      </div>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/400x200?text=Project+3+Image" alt="Project 3 Image" />
+        <h4>Project 3</h4>
+        <p>More projects can go here!</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h3>Contact Me</h3>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Yupiter. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
